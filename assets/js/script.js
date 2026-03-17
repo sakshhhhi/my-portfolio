@@ -3,7 +3,7 @@
    =================================================== */
 
 /* ---------- Typed Text Effect ---------- */
-const phrases = ['IT Faculty', 'Java Developer', 'Web Developer', 'Tech Educator', '3D Artist'];
+const phrases = ['Tech Educator', 'Java Developer', 'Web Developer', 'Tech Educator'];
 let phraseIdx = 0, charIdx = 0, deleting = false;
 const typedEl = document.getElementById('typed-text');
 
