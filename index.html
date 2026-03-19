@@ -603,31 +603,31 @@
         </div>
 
         <form action="https://formspree.io/f/mwvrybkp" method="POST">
-          <div class="form_row">
-            <div class="form_group">
-              <label class="form_label">First Name</label>
-              <input type="text" class="form_input" placeholder="John" required>
+            <div class="form_row">
+              <div class="form_group">
+               <label class="form_label">First Name</label>
+              <input type="text" name="first_name" class="form_input" placeholder="John" required>
+          </div>
+              <div class="form_group">
+                <label class="form_label">Last Name</label>
+                <input type="text" name="last_name" class="form_input" placeholder="Doe" required>
+              </div>
             </div>
-            <div class="form_group">
-              <label class="form_label">Last Name</label>
-              <input type="text" class="form_input" placeholder="Doe" required>
+          <div class="form_group">
+              <label class="form_label">Email Address</label>
+              <input type="email" name="email" class="form_input" placeholder="john@example.com" required>
+          </div>
+          <div class="form_group">
+             <label class="form_label">Subject</label>
+             <input type="text" name="subject" class="form_input" placeholder="Project Collaboration / Tutoring / etc." required>
             </div>
-          </div>
-          <div class="form_group">
-            <label class="form_label">Email Address</label>
-            <input type="email" class="form_input" placeholder="john@example.com" required>
-          </div>
-          <div class="form_group">
-            <label class="form_label">Subject</label>
-            <input type="text" class="form_input" placeholder="Project Collaboration / Tutoring / etc." required>
-          </div>
-          <div class="form_group">
+           <div class="form_group">
             <label class="form_label">Message</label>
-            <textarea class="form_textarea" placeholder="Tell me about your project or enquiry..." required></textarea>
+            <textarea name="message" class="form_textarea" placeholder="Tell me about your project or enquiry..." required></textarea>
           </div>
           <button type="submit" class="button button-primary form_submit">
-            <i class="uil uil-message button_icon"></i>
-            <span>Send Message</span>
+          <i class="uil uil-message button_icon"></i>
+          <span>Send Message</span>
           </button>
         </form>
 
